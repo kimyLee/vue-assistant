@@ -79,7 +79,7 @@ export default {
     },
     // 保存上传图片
     saveImg (dataUrl) {
-      return this.$axios.get('/static/api.json')
+      return this.$axios.get('./static/api.json')
         .then((data) => {
           localStorage.setItem('headImg', dataUrl)
         })

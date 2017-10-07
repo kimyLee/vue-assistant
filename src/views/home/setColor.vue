@@ -22,7 +22,7 @@ export default {
   methods: {
     // 假装调用接口设置颜色
     chooseColor (color) {
-      this.$axios.get('/static/api.json')
+      this.$axios.get('./static/api.json')
         .then((data) => {
           this.$bus.$emit('set-theme', color)
           this.changColor = false

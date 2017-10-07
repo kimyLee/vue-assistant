@@ -55,7 +55,7 @@ export default {
       visible: false,  // 侧边栏是否打开
       loading: false,
       userinfo: {
-        headUrl: '/static/img/head.jpg',  // 头像链接
+        headUrl: './static/img/head.jpg',  // 头像链接
         color: ''
       },
       loadingColor: '#26a2ff'  // loading 的颜色
