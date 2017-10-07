@@ -11,7 +11,7 @@
        </div>
 
        <div class="grid">
-          <div class="grid-item" @click="jumpTo('DatePlan')"><i class="icon iconfont icon-rili" ></i><br><span class="grid-item-text">dataplan</span>
+          <div class="grid-item" @click="jumpTo('DatePlan')"><i class="icon iconfont icon-rili" ></i><br><span class="grid-item-text">dataplan333</span>
          </div><div class="grid-item" @click="jumpTo('EatWhat')"><i class="icon iconfont icon-fan " ></i><br><span class="grid-item-text">今天吃什么</span>
          </div><div class="grid-item" @click="jumpTo('memo')"><i class="icon iconfont icon-beiwanglu " ></i><br><span class="grid-item-text">备忘录</span>
          </div><div class="grid-item" @click="jumpTo('when')"><i class="icon iconfont icon-shiliangzhinengduixiang9 " ></i><br><span class="grid-item-text">什么时候放假</span>
