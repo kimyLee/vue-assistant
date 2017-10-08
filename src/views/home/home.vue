@@ -5,7 +5,7 @@
        <div class="head-field">
          <span class="head-field-pic" @click="JumpInfo">
          <span class="img-hover">
-            <img :src="userinfo.headUrl" v-autofix/>
+            <img :src="userinfo.headUrl" v-autofix="name"/>
           </span>
         </span>
        </div>
@@ -44,6 +44,11 @@ export default {
     }
   },
   created () {
+    // 解决从浏览器回退触发不了指令的问题
+    this.name = 'trigger'
+    setTimeout(() => {
+      this.name = 'kimmy'
+    }, 0)
   },
   watch: {
     // 设置颜色页面就在该view下, 因而改变颜色这里也需要监听
